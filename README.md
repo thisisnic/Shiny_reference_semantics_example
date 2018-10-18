@@ -1,7 +1,7 @@
 # Shiny `reactiveValues` Reference Semantics
 
 In Shiny, `reactiveValues()` can be used to create a list-like 
-reactive object.  However, this list has special properties.  
+reactive object.  However, this object has special properties.  
 
 Normally in R, scoping rules mean that when you pass an object into a function
 as a parameter, __copy-on-modify__ semantics are used.  In other words, a copy of 
